@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .main{
     background-image: url("assets/images/bg.jpg");
@@ -22,17 +25,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 80vw;
+    max-width: 60vw;
     margin: auto;
     height: 62px;
 }
 nav img{
     color: red;
-    width: 150px;
+    width: 114px;
     z-index: 10;
     position: relative;
 }
 nav button{
     position: relative;
     z-index: 10;
+}
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+.hero :first-child{
+    font-weight: bolder;
+    font-size: 48px;
 }

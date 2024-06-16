@@ -1,47 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: black;
 }
 .main{
   background-image: url(assets/images/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 .main .box{
-    height: 80vh;
-    width: 100%;
-    opacity: 0.44;
-    background-color: black;
-    position: absolute;
-    top: 0;
+  height: 70vh;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
 }
 nav{
-    max-width: 60vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
 }
 nav img{
-    color: red;
-    width: 114px;
-    position: relative;
-    z-index: 10;
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
 }
 nav button{
-    position: relative;
-    z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 .hero{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
+  font-family: 'Martel Sans', sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+.hero :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+.hero :nth-child(2){
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero :nth-child(3){
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.separation{
+  height: 7px;
+  background-color: #2e2c2c;
+}
+.btn{
+  padding: 3px 8px;
+  font-weight: bold;
+  background-color: white;
+}
+.btn-red{
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px!important;
+  border-radius: 4px;
+}
+.btn-red-sm{
+  background-color: red;
+  color: white;
+}
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main input{
+  padding: 10px 101px 10px 14px;
+  font-weight: 900;
+  font-size: 12px!important;
+  border-radius: 4px;
+  background-color: rgba(21, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  text-align: left!important;
 }

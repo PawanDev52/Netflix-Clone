@@ -144,3 +144,31 @@ section.first > div :nth-child(2){
   font-size: 24px;
   font-weight: bolder;
 }
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+}
+.faqbox:hover{
+  background-color: #414141;
+  color: white;
+}
+.faqbox svg{
+  filter: invert(1);
+}
+.faqbox{
+  transition: all 1s ease-out;
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 24px;
+  font-size: 24px;
+  max-width: 60vw;
+  margin: 14px auto;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+}

@@ -172,3 +172,27 @@ section.first > div :nth-child(2){
   cursor: pointer;
   color: white;
 }
+footer{
+  color: white;
+  margin: auto;
+  max-width: 60vw;
+  padding: 14px;
+}
+footer .question{
+    padding: 34px 0px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
